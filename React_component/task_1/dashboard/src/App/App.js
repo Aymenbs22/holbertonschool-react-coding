@@ -37,6 +37,10 @@ App.defaultProps = {
 };
 
 App.propTypes = {
+  logOut: PropTypes.func,
+};
+
+App.propTypes = {
   isLoggedIn: PropTypes.bool,
 };
 
